@@ -1,0 +1,44 @@
+Left shift a<<b a*2to the power b 
+
+Right shift a>>b a/2to the power b
+
+Ex: 6>>1 6=110 6>>1=11= 3 6/2=3
+
+AND for competetive: check if the ith bit is 1 
+ex: 010 left shift -> 10
+
+Q) multiply a given x by 14 use bit operations 
+A) 14= 1110 
+	x<<4 =16x
+		-x<<1=2x
+
+NOT ~(110)=001
+
+XOR   a^a=0
+      a^0=a
+	a^b=c
+	b^c=a
+Q) Find a number is odd or even 
+A) and with 1 
+
+Q) Find power of 2
+	bool is_pow(int x)
+	{
+		return (x||!(x&(x-1));
+	}
+
+Q) Number of 1's in binary representation 
+	while(x)
+	{
+		if(x&1)
+			ctr++;
+		x>>1;
+	}
+	GREEDY
+
+used with a lot of algorithms-minimal spanning tree, knapsack 
+Activity selection:
+
+time intervals for some activities. How would you determine the maximum activities done in a time interval 
+
+array with start and end time 
