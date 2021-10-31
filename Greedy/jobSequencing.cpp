@@ -28,7 +28,7 @@ int main(){
 			cin >> arr[i];
 		}
 		for(int i=0; i<m-3; i+=3){
-			v.push_back(make_pair(i,make_pair(arr[i+1],arr[i+2])));
+			v.push_back({i,{arr[i+1],arr[i+2]}});
 		}
 		sort(v.begin(), v.end(), sortby);
 		int j=0;
